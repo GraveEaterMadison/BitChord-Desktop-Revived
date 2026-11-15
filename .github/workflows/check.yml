@@ -2,7 +2,7 @@ name: Check
 
 on:
   push:
-    branches: [main]
+    branches: [main, feature/smb-client-server]
   pull_request:
 
 concurrency:
